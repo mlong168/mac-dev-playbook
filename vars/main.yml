@@ -1,0 +1,90 @@
+---
+
+homebrew_install_path: /usr/local/homebrew
+homebrew_update_all_packages: yes
+
+downloads: ~/.ansible-downloads/
+
+configure_sudoers: yes
+configure_term: False
+
+dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_files:
+  - .bash_profile
+  - .gitconfig
+  - .gitignore
+  - .inputrc
+  - .osx
+#  - .vimrc
+
+homebrew_installed_packages:
+  - ansible
+  - autoconf
+  - bash-completion
+  - boot2docker
+  - docker
+  - gettext
+  - git
+  - go
+  - gpg
+  - iperf
+  - libevent
+  - packer
+  - python
+  - sqlite
+  - maven
+  - gradle
+  - leiningen
+  - sbt
+  - bower
+  - grunt-cli
+  - npm
+  - php56
+  - php56-xdebug
+  - ssh-copy-id
+  - cowsay
+  - ios-sim
+  - readline
+  - openssl
+  - pv
+  - wget
+  - wrk
+  - brew-cask
+
+homebrew_taps:
+  - caskroom/cask
+  - homebrew/binary
+  - homebrew/dupes
+  - homebrew/php
+  - homebrew/versions
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - java7
+  - licecap
+  - macvim
+  - menumeters
+  - sublime-text # Note - Sublime Text 2 only, at this time...
+  - textmate
+  - sequel-pro
+  - transmit
+  - vagrant
+  - vagrant-manager
+  - virtualbox
+#- adium
+#- bettertouchtool
+#- google-chrome
+#- dropbox
+#- fing
+#- firefox
+#- handbrake
+#- karabiner
+#- limechat
+#- nvalt
+#- skype
+#- skitch
+#- seil
+#- timemachineeditor
+#- tower
+#- vlc
