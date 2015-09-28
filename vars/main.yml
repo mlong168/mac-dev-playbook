@@ -1,7 +1,10 @@
 ---
 
-homebrew_install_path: /usr/local/homebrew
-homebrew_update_all_packages: yes
+homebrew_install: False
+homebrew_install_path: /usr/local
+
+homebrew_upgrade_all_packages: yes
+homebrew_update_all_packages: no
 
 downloads: ~/.ansible-downloads/
 
@@ -16,7 +19,7 @@ dotfiles_files:
   - .gitignore
   - .inputrc
   - .osx
-#  - .vimrc
+  - .vimrc
 
 homebrew_installed_packages:
   - ansible
@@ -33,18 +36,11 @@ homebrew_installed_packages:
   - packer
   - python
   - sqlite
-  - maven
-  - gradle
   - leiningen
   - sbt
-  - bower
-  - grunt-cli
   - npm
-  - php56
-  - php56-xdebug
   - ssh-copy-id
   - cowsay
-  - ios-sim
   - readline
   - openssl
   - pv
@@ -54,6 +50,7 @@ homebrew_installed_packages:
 
 homebrew_taps:
   - caskroom/cask
+  - caskroom/versions
   - homebrew/binary
   - homebrew/dupes
   - homebrew/php
@@ -88,3 +85,7 @@ homebrew_cask_apps:
 #- timemachineeditor
 #- tower
 #- vlc
+
+homebrew_installed_packages_java:
+  - maven
+  - gradle
