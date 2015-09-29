@@ -1,6 +1,6 @@
 ---
 - hosts: localhost
-  user: jgeerling
+  user: "{ lookup('env','USER') }}"
   connection: local
 
   vars_files:
