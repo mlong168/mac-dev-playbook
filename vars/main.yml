@@ -29,6 +29,7 @@ homebrew_installed_packages:
   - docker
   - gettext
   - git
+  - s3cmd
   - go
   - gpg
   - iperf
