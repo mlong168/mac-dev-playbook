@@ -1,18 +1,10 @@
 # Mac Development Ansible Playbook
 
-This playbook installs and configures most of the software I use on my Mac for web and software development. Some things in OS X are difficult to automate (notably, the Mac App Store and certain tools from Apple), so I still have some manual installation steps, but at least it's all documented here.
-
-This is a work in progress, and is mostly a means for me to document my current Mac's setup. I'll be adding settings and packages to this set of playbooks over time.
-
-*See also*:
-
-  - [Battleschool](http://spencer.gibb.us/blog/2014/02/03/introducing-battleschool) is a more general solution than what I've built here. (It may be a better option if you don't want to fork this repo and hack it for your own workstation...).
-  - [osxc](https://github.com/osxc) is another more general solution, set up so you can fork the [xc-custom](https://github.com/osxc/xc-custom) repo and get your own local environment bootstrapped quickly.
-  - [MWGriffin/ansible-playbooks](https://github.com/MWGriffin/ansible-playbooks) was the original inspiration for this repository, but this project has since been completely rewritten.
+This playbook installs and configures most of the software you will use your Mac for web and software development. Some things in OS X are difficult to automate (notably, the Mac App Store and certain tools from Apple), so I still have some manual installation steps, but at least it's all documented here.
 
 ## Installation
 
-  1. [Install Ansible](http://docs.ansible.com/intro_installation.html).
+  1. Install Ansible ( sudo easy_install pip && sudo pip install ansible )
   2. Ensure Apple's command line tools are installed (`xcode-select --install` to launch the installer).
   3. Clone this repository to your local drive.
   5. Run `ansible-playbook main.yml -i inventory --ask-sudo-pass` from the same directory as this README file.
