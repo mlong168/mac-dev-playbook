@@ -13,7 +13,7 @@ This playbook installs and configures most of the software you will use your Mac
 
 Applications (installed with Homebrew Cask):
 
-  - Adium
+  ~~- Adium~~
   - BetterTouchTool
   - Google Chrome
   - Dropbox
