@@ -13,26 +13,26 @@ This playbook installs and configures most of the software you will use your Mac
 
 Applications (installed with Homebrew Cask):
 
-  ~~- Adium~~
-  ~~- BetterTouchTool~~
-  ~~- Google Chrome~~
-  ~~- Dropbox~~
-  ~~- Firefox~~
-  ~~- Handbrake~~
+  - ~~Adium~~
+  - ~~BetterTouchTool~~
+  - ~~Google Chrome~~
+  - ~~Dropbox~~
+  - ~~Firefox~~
+  - ~~Handbrake~~
+  - ~~Menu Meters~~
+  - ~~TimeMachineEditor~~
+  - ~~Skype~~
+  - ~~Skitch~~
+  - ~~Seil~~
   - Homebrew
   - Java7
   - Karabiner
   - LICEcap
   - MacVim
-  ~~- Menu Meters~~
   - nvALT
   - Sequel Pro (MySQL client)
-  ~~- Skype~~
-  ~~- Skitch~~
-  ~~- Seil~~
   - Sublime Text
   - TextMate
-  ~~- TimeMachineEditor~~
   - Tower (Git client)
   - Transmit (S/FTP client)
   - Vagrant (+ Vagrant Manager)
