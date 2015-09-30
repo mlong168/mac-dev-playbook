@@ -13,17 +13,6 @@ This playbook installs and configures most of the software you will use your Mac
 
 Applications (installed with Homebrew Cask):
 
-  - ~~Adium~~
-  - ~~BetterTouchTool~~
-  - ~~Google Chrome~~
-  - ~~Dropbox~~
-  - ~~Firefox~~
-  - ~~Handbrake~~
-  - ~~Menu Meters~~
-  - ~~TimeMachineEditor~~
-  - ~~Skype~~
-  - ~~Skitch~~
-  - ~~Seil~~
   - Homebrew
   - Java7
   - Karabiner
@@ -37,7 +26,18 @@ Applications (installed with Homebrew Cask):
   - Transmit (S/FTP client)
   - Vagrant (+ Vagrant Manager)
   - VirtualBox
-  - VLC
+  - ~~VLC~~
+  - ~~Adium~~
+  - ~~BetterTouchTool~~
+  - ~~Google Chrome~~
+  - ~~Dropbox~~
+  - ~~Firefox~~
+  - ~~Handbrake~~
+  - ~~Menu Meters~~
+  - ~~TimeMachineEditor~~
+  - ~~Skype~~
+  - ~~Skitch~~
+  - ~~Seil~~
 
 Packages (installed with Homebrew):
 
