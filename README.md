@@ -15,10 +15,7 @@ Applications (installed with Homebrew Cask):
 
   - Homebrew
   - Java7
-  - Karabiner
-  - LICEcap
   - MacVim
-  - nvALT
   - Sequel Pro (MySQL client)
   - Sublime Text
   - TextMate
@@ -38,11 +35,15 @@ Applications (installed with Homebrew Cask):
   - ~~Skype~~
   - ~~Skitch~~
   - ~~Seil~~
+  - ~~Karabiner~~
+  - ~~LICEcap~~
+  - ~~nvALT~~
 
 Packages (installed with Homebrew):
 
   - ansible
   - maven
+  - gardle
   - autoconf
   - gettext
   - libevent
