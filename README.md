@@ -43,7 +43,7 @@ Packages (installed with Homebrew):
 
   - ansible
   - maven
-  - gardle
+  - gradle
   - autoconf
   - gettext
   - libevent
